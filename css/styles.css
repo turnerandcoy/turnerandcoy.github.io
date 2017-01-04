@@ -1,0 +1,104 @@
+html {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.logo-container {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    height: auto;
+    text-align: center;
+}
+
+.img-scale {
+    width: 100%;
+    height: auto;
+}
+
+.introduction {
+    max-width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #092F33;
+
+}
+
+.social-container {
+    max-width: 625px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.twitter-btn {
+    display: inline-block;
+    width: 45px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 05px;
+    background-image: url(../img/twitter.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.twitter-btn:hover {
+    cursor: pointer;
+    background-image: url(../img/twitter-over.svg);
+    opacity: 1;
+}
+
+.instagram-btn {
+    text-align: center;
+    display: inline-block;
+    width: 45px;
+    height: 40px;
+    padding-left: 05px;
+    padding-right: 10px;
+    background-image: url(../img/instagram.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.instagram-btn:hover {
+    cursor: pointer;
+    background-image: url(../img/instagram-over.svg);
+    opacity: 1;
+}
+
+.facebook-btn {
+    text-align: center;
+    display: inline-block;
+    width: 45px;
+    height: 40px;
+    padding-left: 05px;
+    padding-right: 10px;
+    background-image: url(../img/facebook.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.facebook-btn:hover {
+    cursor: pointer;
+    background-image: url(../img/facebook-over.svg);
+    opacity: 1;
+}
