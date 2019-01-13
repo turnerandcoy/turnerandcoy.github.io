@@ -1,0 +1,133 @@
+html {
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  /*You can use any kind of background here.*/
+  background: #ff8b6d;
+}
+
+canvas {
+  display: block;
+  position: relative;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.container {
+    width: 80%;
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.logo {
+    display: inline-block;
+    max-width: 220px;
+    height: auto;
+    animation-delay: 0.25s;
+}
+
+.winner-title {
+    display: inline-block;
+    max-width: 522px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    animation-delay: 1.5s;
+}
+
+.body-text {
+    display: inline-block;
+    width: 70%;
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    color: #114039;
+    font-weight: 400;
+    margin-bottom: 30px;
+    animation-delay: 3s;
+}
+
+.btn {
+    display: inline-block;
+    width: 220px;
+    border-radius: 2em;
+    background-color: #114039;
+    padding: 20px 30px;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+    animation-delay: 4s;
+}
+
+.btn-2 {
+    display: inline-block;
+    width: 220px;
+    border-radius: 2em;
+    background-color: #114039;
+    padding: 20px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+    animation-delay: 5s;
+}
+
+.buttonContainer {
+  display: inline-block;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .winner-title {
+        display: inline-block;
+        max-width: 340px;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        animation-delay: 1.5s;
+    }
+    
+    .logo {
+        display: inline-block;
+        max-width: 170px;
+        height: auto;
+        animation-delay: 0.25s;
+    }
+    
+    .container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .body-text {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .winner-title {
+        display: inline-block;
+        max-width: 280px;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        animation-delay: 1.5s;
+    }
+}
